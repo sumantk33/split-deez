@@ -1,0 +1,21 @@
+{
+  "name": "split-deez",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev-backend": "npx turbo run start --filter=backend"
+  },
+  "keywords": [],
+  "author": "Sumant Katti",
+  "license": "ISC",
+  "description": "Expense tracking application",
+  "devDependencies": {
+    "turbo": "^2.5.6"
+  },
+  "packageManager": "npm@10.8.2"
+}
